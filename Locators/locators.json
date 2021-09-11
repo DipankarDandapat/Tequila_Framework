@@ -1,0 +1,1330 @@
+[
+  {
+    "pageName": "HomePage",
+    "name": "CoockiesCrossButton",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),' X')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "CoockiesAcceptButton",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(), 'Accept')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "CoockiesDeclineButton",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(), ' Decline ')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "UserProfileIcon",
+    "locateUsing": "xpath",
+    "locator": "//img[contains(@src,'profile.png')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "mainToolNav",
+    "locateUsing": "xpath",
+    "locator":"//kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "mapOfMeaning",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Map Of Meaning')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "myMirror",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'My Mirror')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "myGuide",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),' My Guide')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "meaningCircles",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Meaning Circles')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "meaningNetwork",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Meaning Network')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "meaningCommunities",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Meaning Communities')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "meaningConstellation",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),' Meaning Constellation ')]"
+  },
+
+  {
+    "pageName": "HomePage",
+    "name": "input_email",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='username']"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "input_password",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='password']"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "btn_login",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'LOGIN')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "forgot_password",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Forgot Password')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "start_your_journey",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Start Your Journey')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "login_close",
+    "locateUsing": "xpath",
+    "locator": "//button[@class='login_close']"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "take_the_survey",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Take The Survey')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "continue",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Continue')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "never_hardly_radio_Button",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Never/hardly ever')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "seldom_radio_Button",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Seldom')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "sometimes_radio_Button",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Sometimes')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "often_radio_Button",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Often')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "always_almost_always_radio_Button",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Always/almost always')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "next_Button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Next')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "previous_Button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Previous')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "submit_Button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Submit')]"
+  },
+  {
+    "pageName": "MapOfMeaning",
+    "name": "view_my_Surveys",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'View my Surveys')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "view_an_example",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'View an Example')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "cross_button",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'X')]"
+  },
+
+  {
+    "pageName": "MyMirror",
+    "name": "add_a_Reflection_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Add a Reflection')]"
+  },
+
+  {
+    "pageName": "MyMirror",
+    "name": "textbox",
+    "locateUsing": "xpath",
+    "locator": "//div[@role='textbox']"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "next_Button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Next')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "feeling_words_list",
+    "locateUsing": "xpath",
+    "locator": "//label[@class='RadioLabel']/span"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "headline",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@formcontrolname='question_answer']"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "topics_list",
+    "locateUsing": "xpath",
+    "locator": "//label[@class='RadioLabel']/span"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "previous_Button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Previous')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "submit_Button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Submit')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "my_Reflections_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'My Reflections')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "first_report",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='row ng-star-inserted']/div[1]/div/div/div/table/tr/td/button"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "view_Reflection",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'View Reflection')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "tag_to_Topics",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Tag to Topics')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "add_an_Update",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Add an Update')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "three_vertical_dots_link",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'more_vert')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "complete_reflection_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Complete Reflection')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "view_reflection_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'View Reflection')]"
+  },{
+    "pageName": "MyMirror",
+    "name": "tag_to_topics_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Tag to Topics')]"
+  },{
+    "pageName": "MyMirror",
+    "name": "add_an_update_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Add an Update')]"
+  },{
+    "pageName": "MyMirror",
+    "name": "share_with_guide_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Share with Guide')]"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "feeling_words_captured",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='help_text my-2 ng-star-inserted']/b"
+  },
+  {
+    "pageName": "MyMirror",
+    "name": "add_an_update_to_Reflection",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@formcontrolname='feedback']"
+  },
+
+ {
+    "pageName": "MyMirror",
+    "name": "save_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Save')]"
+  },
+
+  {
+    "pageName": "MyMirror",
+    "name": "toast_message",
+    "locateUsing": "xpath",
+    "locator": "//div[@id='toast-container']"
+  },
+
+  {
+    "pageName": "MeaningConstellation",
+    "name": "overview_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Overview')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "all_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'All')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "articles_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Articles')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "books_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Books')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "movies_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Movies')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "videos_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Videos')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "new_request_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'New Request')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "inner_icone",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='inner-icone mr-1']/img"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "list_of_constellation",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='profile_card front_card_background_clr ng-star-inserted']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "closed_details_page",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'X')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "constellation_list_title",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='profile_card front_card_background_clr ng-star-inserted']//following::span/img"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "rate_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Rate')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Cheer')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_cheer_title",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Cheer')]//following::img[@title='Cheer']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_cheer_title_counts",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Cheer']//following::span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_IResonate_title",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Cheer')]//following::img[@title='I Resonate']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_IResonate_title_counts",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='I Resonate']//following::span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_ILearned_title",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Cheer')]//following::img[@title='I Learned']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_ILearned_title_counts",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='I Learned']//following::span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_IamInspired_title",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Cheer')]//following::img[@title='I am Inspired']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "cheer_link_IamInspired_title_counts",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='I Am Inspired']//following::span[1]"
+  },
+
+  {
+    "pageName": "MeaningConstellation",
+    "name": "share_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Share')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "share_as_message_link",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Share as Message']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "share_as_post_link",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Share as Post']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "add_to_my_treasures_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Add to My Treasures')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaning_constellation_name",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='name only_one_line_show']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaning_constellation_image",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='feedcontent feedMedia']/img"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaning_constellation_description",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='feedcontent word_break']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaning_constellation_seemore",
+    "locateUsing": "xpath",
+    "locator": "//u[contains(text(),'See More')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaning_constellation_add_your_comments",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@formcontrolname='remarks']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaning_constellation_add_your_comments_submit_button",
+    "locateUsing": "xpath",
+    "locator": "//button[@type='submit']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "comments_status",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='commentsStats']/span"
+  },
+
+
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaningsphere_recommended_icon",
+    "locateUsing": "xpath",
+    "locator": "//img[@class='contarea-img']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "meaningsphere_recommended_discretion",
+    "locateUsing": "xpath",
+    "locator": "//p[@class='word_break']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "articles_title",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Articles')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "books_title",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Books')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "movies_title",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Movies')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "videos_title",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Videos')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter",
+    "locateUsing": "xpath",
+    "locator": "//i[@title='Filter']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_byRating",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'By Rating')]//parent::label/span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_inBooks",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'In Books')]//parent::label/span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_inArticles",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'In Articles')]//parent::label/span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_inVideos",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'In Videos')]//parent::label/span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_inMovies",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'In Movies')]//parent::label/span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_msRecomended",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'MS Recommended')]//parent::label/span[1]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_reset",
+    "locateUsing": "xpath",
+    "locator": "//img[@src='/assets/media/icon/Refresh@2xWhite.png']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_search_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Search')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "filter_dismiss",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='cdk-overlay-container']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "thoughts",
+    "locateUsing": "xpath",
+    "locator": "//div[@role='textbox']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "shareButton",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Share')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "send_message_arrow",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='ng-arrow-wrapper']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "send_message_user_list",
+    "locateUsing": "xpath",
+    "locator": "//div[@role='option']/span"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "message",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@formcontrolname='message']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "message_send_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Send')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "toast_message",
+    "locateUsing": "xpath",
+    "locator": "//div[@id='toast-container']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_suggested_by",
+    "locateUsing": "xpath",
+    "locator": "//p[contains(text(),'Suggested by')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_created_on",
+    "locateUsing": "xpath",
+    "locator": "//p[contains(text(),'On')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_category",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'Category')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_title",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='title']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_description",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@formcontrolname='description']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_link_url",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='link_url']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_save_button",
+    "locateUsing": "xpath",
+    "locator": "//button[@type='submit']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_cancel_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Cancel')]"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_image_upload",
+    "locateUsing": "xpath",
+    "locator": "//label[@for='image-input']"
+  },
+  {
+    "pageName": "MeaningConstellation",
+    "name": "newRequest_video_upload",
+    "locateUsing": "xpath",
+    "locator": "//label[@for='video-input']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "curatorSpace_link",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(text(),'CURATOR SPACE')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_constellation_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Manage Constellation')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_constellation_title",
+    "locateUsing": "xpath",
+    "locator": "//h2[contains(text(),'Manage Constellation')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_meaning_central_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Manage Meaning Central')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_community_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'MANAGE COMMUNITY')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_circles_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'MANAGE CIRCLES')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_flagged_content_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Manage Flagged Content')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "manage_topics_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Manage Topics')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "add_new_constellation_button",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Add new Constellation']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "add_new_constellation_title",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Add to Meaning Constellation')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "title_box",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='title']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "description_box",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'Description *')]//following::div[@class='note-editable'][1]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "link_url",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='link_url']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "suggested_by_arrow",
+    "locateUsing": "xpath",
+    "locator": "//span[@class='ng-arrow-wrapper']"
+  },{
+    "pageName": "CuratorSpace",
+    "name": "suggested_by_clear_all",
+    "locateUsing": "xpath",
+    "locator": "//span[@title='Clear all']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "suggested_by_user_list",
+    "locateUsing": "xpath",
+    "locator": "//div[@role='option']/span"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "meaningSphere_recommends",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'Description *')]//following::div[@class='note-editable'][2]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "category_select",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Category: *')]//following::select"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "curatorspace_upload_image",
+    "locateUsing": "xpath",
+    "locator": "//input[@id='image-input']"
+  },
+
+  {
+    "pageName": "CuratorSpace",
+    "name": "save_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Save')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "toast_message",
+    "locateUsing": "xpath",
+    "locator": "//div[@id='toast-container']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "details_page",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='help-desk ng-star-inserted']/div[1]//child::img[@title='Details']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "details_page_title",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='help-desk ng-star-inserted']/div[1]//child::h3"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "details_page_Description",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='help-desk ng-star-inserted']/div[1]//child::p[1]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "details_page_Category",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='help-desk ng-star-inserted']/div[1]//child::p[2]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "details_page_rating",
+    "locateUsing": "xpath",
+    "locator": "//ul[@class='rate-area']"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "remove_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Remove')]"
+  },
+  {
+    "pageName": "CuratorSpace",
+    "name": "yes_remove_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Yes')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "adminSpace_link",
+    "locateUsing": "xpath",
+    "locator": "//div[contains(text(),'ADMIN SPACE')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "manageExplorers_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'MANAGE EXPLORERS')]"
+  },{
+    "pageName": "AdminSpace",
+    "name": "manageExplorers_page_header_label",
+    "locateUsing": "xpath",
+    "locator": "//h2[contains(text(),'Manage Explorers')]"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "manageGuides_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'MANAGE GUIDES')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "manageGuides_page_header_label",
+    "locateUsing": "xpath",
+    "locator": "//h2[contains(text(),'Manage Guides')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "manageRequests_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'Manage Requests')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "help_desk_tickets_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'HELP DESK TICKETS')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "manageTemplates_link",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(text(),'MANAGE TEMPLATES')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_button",
+    "locateUsing": "xpath",
+    "locator": "//img[@src='/assets/media/add.png']"
+  },{
+    "pageName": "AdminSpace",
+    "name": "add_explorers_page_header_label",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'Add Explorer')]"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_firstName",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='first_name']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_lastName",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='last_name']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_email",
+    "locateUsing": "xpath",
+    "locator": "//input[@formcontrolname='email']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_as_a_guide_Yes",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Is the new Explorer a Guide? * ')]//following::span[contains(text(),'YES')][1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_as_a_guide_No",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Is the new Explorer a Guide? * ')]//following::span[contains(text(),'NO')][1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_as_a_curator_Yes",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Is the new Explorer a Curator? * ')]//following::span[contains(text(),'YES')][1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_as_a_curator_No",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Is the new Explorer a Curator? * ')]//following::span[contains(text(),'NO')][1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_as_a_administrator_Yes",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Is the new Explorer an Administrator? * ')]//following::span[contains(text(),'YES')][1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_explorers_as_a_administrator_No",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'Is the new Explorer an Administrator? * ')]//following::span[contains(text(),'NO')][1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "save_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Save')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "search_box",
+    "locateUsing": "xpath",
+    "locator": "//input[@placeholder='Search']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "three_vertical_dots_link",
+    "locateUsing": "xpath",
+    "locator": "//*[contains(text(),'more_vert')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "view_profile_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'View Profile')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "edit_profile_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Edit Profile')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_as_curator_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Add as Curator')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "remove_as_curator_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Remove as Curator')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_as_admin_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Add as Admin')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "remove_as_admin_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Remove as Admin')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "add_as_guide_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Add as Guide')]"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "remove_as_guide_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Remove as Guide')]"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "lock_explorer_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Lock Explorer')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "unlock_explorer_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Unlock Explorer')]"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "view_account_activity_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'View Account Activity')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "view_account_activity_page_header",
+    "locateUsing": "xpath",
+    "locator": "//h1[contains(text(),'View Account Activity')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "view_account_activity_type",
+    "locateUsing": "xpath",
+    "locator": "//table[@class='table past_activity_table']/tr[2]/td[1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "view_account_activity_remarks",
+    "locateUsing": "xpath",
+    "locator": "//table[@class='table past_activity_table']/tr[2]/td[4]"
+  },
+
+
+  {
+    "pageName": "AdminSpace",
+    "name": "password_reset_link",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'Password Reset')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter",
+    "locateUsing": "xpath",
+    "locator": "//i[@title='Filter']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "dismiss_filter",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='cdk-overlay-container']"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_reset",
+    "locateUsing": "xpath",
+    "locator": "//img[@src='/assets/media/icon/Refresh@2xWhite.png']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_go_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'GO')]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_isLocked_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isLocked']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_isLocked_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isLocked']//ancestor::label/span[1]/input"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_isInactive_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isInactive']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_isInactive_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isInactive']//ancestor::label/span[1]/input"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_isCurator_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isCurator']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_isCurator_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isCurator']//ancestor::label/span[1]/input"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_pastCurator_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='pastCurator']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_pastCurator_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='pastCurator']//ancestor::label/span[1]/input"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_isGuide_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isMentor']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_isGuide_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='isMentor']//ancestor::label/span[1]/input"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_pastGuide_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='pastGuide']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_pastGuide_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='pastGuide']//ancestor::label/span[1]/input"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "filter_orderBy_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='orderBy']//ancestor::label/span[1]"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_orderBy_checkbox_status",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='orderBy']//ancestor::label/span[1]/input"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "filter_select_orderByOption",
+    "locateUsing": "xpath",
+    "locator": "//select[@formcontrolname='orderByOption']"
+  },
+
+  {
+    "pageName": "AdminSpace",
+    "name": "get_all_user_title",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='title']/div[1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "explorer_since",
+    "locateUsing": "xpath",
+    "locator": "//small[contains(text(),'Explorer since')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "no_data_found_message",
+    "locateUsing": "xpath",
+    "locator": "//td[contains(text(),'No data found.')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "guide_icon",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Guide']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "curator_icon",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Curator']"
+  },
+   {
+    "pageName": "AdminSpace",
+    "name": "admin_icon",
+    "locateUsing": "xpath",
+    "locator": "//img[@title='Admin']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "toast_message",
+    "locateUsing": "xpath",
+    "locator": "//div[@id='toast-container']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "remarks",
+    "locateUsing": "xpath",
+    "locator": "//textarea[@formcontrolname='property_value']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "i_confirm_this_change_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//label[contains(text(),'I confirm this change')]//parent::div/input[2]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "View_guided_Explorers",
+    "locateUsing": "xpath",
+    "locator": "//span[contains(text(),'View Guided Explorers')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "name_of_guided_Explorers",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='title']/div[1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "cancel_button",
+    "locateUsing": "xpath",
+    "locator": "//button[contains(text(),'Cancel')]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "card_counts",
+    "locateUsing": "xpath",
+    "locator": "//div[@class='card archive_card front_card_background_clr']"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "with_active_guided_explorers_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='withmentees']//ancestor::label/span[1]"
+  },
+  {
+    "pageName": "AdminSpace",
+    "name": "without_active_guided_explorers_checkbox",
+    "locateUsing": "xpath",
+    "locator": "//*[@formcontrolname='withoutmentees']//ancestor::label/span[1]"
+  }
+
+
+
+
+
+
+]
+

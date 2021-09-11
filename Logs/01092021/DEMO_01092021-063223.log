@@ -1,0 +1,31 @@
+2021-09-01 06:32:24,080 - INFO - browser start
+2021-09-01 06:32:24,112 - INFO - Current google-chrome version is 92.0.4515
+2021-09-01 06:32:24,112 - INFO - Get LATEST driver version for 92.0.4515
+2021-09-01 06:32:24,393 - INFO - Get LATEST driver version for 92.0.4515
+2021-09-01 06:32:24,502 - INFO - Trying to download new driver from http://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_win32.zip
+2021-09-01 06:32:26,270 - INFO - Driver has been saved in cache [C:\Users\ddand\.wdm\drivers\chromedriver\win32\92.0.4515.107]
+2021-09-01 06:32:37,413 - INFO - ###### TEST EXECUTION STARTED :: test_VeriyIfFeelingWordSelectionIsLimitedToMax_6_Values ######
+2021-09-01 06:32:37,435 - INFO - Element found with locator: //button[contains(text(), 'Accept')] and locatorType: xpath
+2021-09-01 06:32:37,470 - INFO - clicked on element with locator: //button[contains(text(), 'Accept')] locatorType: xpath
+2021-09-01 06:32:37,479 - INFO - Element found with locator: //img[contains(@src,'profile.png')] and locatorType: xpath
+2021-09-01 06:32:37,531 - INFO - clicked on element with locator: //img[contains(@src,'profile.png')] locatorType: xpath
+2021-09-01 06:32:37,539 - INFO - Element found with locator: //input[@formcontrolname='username'] and locatorType: xpath
+2021-09-01 06:32:37,610 - INFO - send data on element with locator: //input[@formcontrolname='username'] locatorType: xpath
+2021-09-01 06:32:37,619 - INFO - Element found with locator: //input[@formcontrolname='password'] and locatorType: xpath
+2021-09-01 06:32:37,671 - INFO - send data on element with locator: //input[@formcontrolname='password'] locatorType: xpath
+2021-09-01 06:32:37,680 - INFO - Element found with locator: //button[contains(text(),'LOGIN')] and locatorType: xpath
+2021-09-01 06:32:37,709 - INFO - clicked on element with locator: //button[contains(text(),'LOGIN')] locatorType: xpath
+2021-09-01 06:32:47,747 - INFO - Element found with locator: //kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1] and locatorType: xpath
+2021-09-01 06:32:47,826 - INFO - clicked on element with locator: //kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1] locatorType: xpath
+2021-09-01 06:32:47,837 - INFO - Element found with locator: //a[contains(text(),'My Mirror')] and locatorType: xpath
+2021-09-01 06:32:47,893 - INFO - clicked on element with locator: //a[contains(text(),'My Mirror')] locatorType: xpath
+2021-09-01 06:32:47,922 - INFO - Element found with locator: //a[contains(text(),'Add a Reflection')] and locatorType: xpath
+2021-09-01 06:32:47,971 - INFO - clicked on element with locator: //a[contains(text(),'Add a Reflection')] locatorType: xpath
+2021-09-01 06:32:48,753 - INFO - Element found with locator: //div[@role='textbox'] and locatorType: xpath
+2021-09-01 06:32:48,811 - INFO - send data on element with locator: //div[@role='textbox'] locatorType: xpath
+2021-09-01 06:32:48,819 - INFO - Element found with locator: //button[contains(text(),'Next')] and locatorType: xpath
+2021-09-01 06:32:48,853 - INFO - clicked on element with locator: //button[contains(text(),'Next')] locatorType: xpath
+2021-09-01 06:32:49,506 - INFO - Element list found with locator: //label[@class='RadioLabel']/span and locatorType: xpath
+2021-09-01 06:32:59,335 - INFO - Element found with locator: //div[@id='toast-container'] and locatorType: xpath
+2021-09-01 06:32:59,370 - INFO - Getting text on element The text is :: 'You may select up to six feeling words only.'
+2021-09-01 06:32:59,371 - INFO - feeling word selection is limited to max 6 values

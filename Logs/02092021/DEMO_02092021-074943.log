@@ -1,0 +1,39 @@
+2021-09-02 07:49:43,754 - INFO - browser start
+2021-09-02 07:49:43,771 - INFO - Current google-chrome version is 92.0.4515
+2021-09-02 07:49:43,771 - INFO - Get LATEST driver version for 92.0.4515
+2021-09-02 07:49:44,034 - INFO - Driver [C:\Users\ddand\.wdm\drivers\chromedriver\win32\92.0.4515.107\chromedriver.exe] found in cache
+2021-09-02 07:49:53,169 - INFO - ###### TEST EXECUTION STARTED :: test_VerifyModificationOfTagsAssociatedToAReflection ######
+2021-09-02 07:49:53,192 - INFO - Element found with locator: //button[contains(text(), 'Accept')] and locatorType: xpath
+2021-09-02 07:49:53,227 - INFO - clicked on element with locator: //button[contains(text(), 'Accept')] locatorType: xpath
+2021-09-02 07:49:53,236 - INFO - Element found with locator: //img[contains(@src,'profile.png')] and locatorType: xpath
+2021-09-02 07:49:53,291 - INFO - clicked on element with locator: //img[contains(@src,'profile.png')] locatorType: xpath
+2021-09-02 07:49:53,299 - INFO - Element found with locator: //input[@formcontrolname='username'] and locatorType: xpath
+2021-09-02 07:49:53,374 - INFO - send data on element with locator: //input[@formcontrolname='username'] locatorType: xpath
+2021-09-02 07:49:53,382 - INFO - Element found with locator: //input[@formcontrolname='password'] and locatorType: xpath
+2021-09-02 07:49:53,438 - INFO - send data on element with locator: //input[@formcontrolname='password'] locatorType: xpath
+2021-09-02 07:49:53,447 - INFO - Element found with locator: //button[contains(text(),'LOGIN')] and locatorType: xpath
+2021-09-02 07:49:53,480 - INFO - clicked on element with locator: //button[contains(text(),'LOGIN')] locatorType: xpath
+2021-09-02 07:50:03,526 - INFO - Element found with locator: //kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1] and locatorType: xpath
+2021-09-02 07:50:03,633 - INFO - clicked on element with locator: //kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1] locatorType: xpath
+2021-09-02 07:50:03,642 - INFO - Element found with locator: //a[contains(text(),'My Mirror')] and locatorType: xpath
+2021-09-02 07:50:03,709 - INFO - clicked on element with locator: //a[contains(text(),'My Mirror')] locatorType: xpath
+2021-09-02 07:50:05,742 - INFO - Element found with locator: //a[contains(text(),'My Reflections')] and locatorType: xpath
+2021-09-02 07:50:05,887 - INFO - clicked on element with locator: //a[contains(text(),'My Reflections')] locatorType: xpath
+2021-09-02 07:50:07,983 - INFO - Element found with locator: //*[contains(text(),'more_vert')] and locatorType: xpath
+2021-09-02 07:50:08,028 - INFO - clicked on element with locator: //*[contains(text(),'more_vert')] locatorType: xpath
+2021-09-02 07:50:08,042 - INFO - Element found with locator: //span[contains(text(),'View Reflection')] and locatorType: xpath
+2021-09-02 07:50:08,042 - INFO - Element found with locator: //span[contains(text(),'View Reflection')] and locatorType: xpath
+2021-09-02 07:50:08,050 - INFO - Element found with locator: //span[contains(text(),'Tag to Topics')] and locatorType: xpath
+2021-09-02 07:50:08,050 - INFO - Element found with locator: //span[contains(text(),'Tag to Topics')] and locatorType: xpath
+2021-09-02 07:50:08,058 - INFO - Element found with locator: //span[contains(text(),'Add an Update')] and locatorType: xpath
+2021-09-02 07:50:08,058 - INFO - Element found with locator: //span[contains(text(),'Add an Update')] and locatorType: xpath
+2021-09-02 07:50:23,077 - ERROR - Element not found with locator: //span[contains(text(),'Share with Guide')] and locatorType: xpath
+2021-09-02 07:50:23,078 - ERROR - Element not found with locator: //span[contains(text(),'Share with Guide')] and locatorType: xpath
+2021-09-02 07:50:23,096 - INFO - Element found with locator: //span[contains(text(),'Tag to Topics')] and locatorType: xpath
+2021-09-02 07:50:23,227 - INFO - clicked on element with locator: //span[contains(text(),'Tag to Topics')] locatorType: xpath
+2021-09-02 07:50:28,263 - INFO - Element list found with locator: //label[@class='RadioLabel']/span and locatorType: xpath
+2021-09-02 07:50:30,761 - INFO - Element found with locator: //div[@id='toast-container'] and locatorType: xpath
+2021-09-02 07:50:30,798 - INFO - Getting text on element The text is :: 'You can select up to three topics only!'
+2021-09-02 07:50:30,799 - INFO - Topics word selection there is no limit
+2021-09-02 07:50:30,997 - INFO - Element found with locator: //button[contains(text(),'Save')] and locatorType: xpath
+2021-09-02 07:50:31,039 - INFO - clicked on element with locator: //button[contains(text(),'Save')] locatorType: xpath

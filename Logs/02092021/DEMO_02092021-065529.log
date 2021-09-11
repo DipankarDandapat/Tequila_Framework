@@ -1,0 +1,48 @@
+2021-09-02 06:55:30,297 - INFO - browser start
+2021-09-02 06:55:30,344 - INFO - Current google-chrome version is 92.0.4515
+2021-09-02 06:55:30,344 - INFO - Get LATEST driver version for 92.0.4515
+2021-09-02 06:55:30,938 - INFO - Get LATEST driver version for 92.0.4515
+2021-09-02 06:55:31,062 - INFO - Trying to download new driver from http://chromedriver.storage.googleapis.com/92.0.4515.107/chromedriver_win32.zip
+2021-09-02 06:55:33,156 - INFO - Driver has been saved in cache [C:\Users\ddand\.wdm\drivers\chromedriver\win32\92.0.4515.107]
+2021-09-02 06:55:44,274 - INFO - ###### TEST EXECUTION STARTED :: test_VerifyTaggingOfAReflection ######
+2021-09-02 06:55:44,293 - INFO - Element found with locator: //button[contains(text(), 'Accept')] and locatorType: xpath
+2021-09-02 06:55:44,349 - INFO - clicked on element with locator: //button[contains(text(), 'Accept')] locatorType: xpath
+2021-09-02 06:55:44,359 - INFO - Element found with locator: //img[contains(@src,'profile.png')] and locatorType: xpath
+2021-09-02 06:55:44,414 - INFO - clicked on element with locator: //img[contains(@src,'profile.png')] locatorType: xpath
+2021-09-02 06:55:44,423 - INFO - Element found with locator: //input[@formcontrolname='username'] and locatorType: xpath
+2021-09-02 06:55:44,496 - INFO - send data on element with locator: //input[@formcontrolname='username'] locatorType: xpath
+2021-09-02 06:55:44,505 - INFO - Element found with locator: //input[@formcontrolname='password'] and locatorType: xpath
+2021-09-02 06:55:44,554 - INFO - send data on element with locator: //input[@formcontrolname='password'] locatorType: xpath
+2021-09-02 06:55:44,563 - INFO - Element found with locator: //button[contains(text(),'LOGIN')] and locatorType: xpath
+2021-09-02 06:55:44,592 - INFO - clicked on element with locator: //button[contains(text(),'LOGIN')] locatorType: xpath
+2021-09-02 06:55:54,619 - INFO - Element found with locator: //kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1] and locatorType: xpath
+2021-09-02 06:55:54,735 - INFO - clicked on element with locator: //kt-subheader/aside[1]/div[2]/div[1]/div[1]/*[1] locatorType: xpath
+2021-09-02 06:55:54,744 - INFO - Element found with locator: //a[contains(text(),'My Mirror')] and locatorType: xpath
+2021-09-02 06:55:54,802 - INFO - clicked on element with locator: //a[contains(text(),'My Mirror')] locatorType: xpath
+2021-09-02 06:55:54,831 - INFO - Element found with locator: //a[contains(text(),'Add a Reflection')] and locatorType: xpath
+2021-09-02 06:55:54,874 - INFO - clicked on element with locator: //a[contains(text(),'Add a Reflection')] locatorType: xpath
+2021-09-02 06:55:55,677 - INFO - Element found with locator: //div[@role='textbox'] and locatorType: xpath
+2021-09-02 06:55:55,735 - INFO - send data on element with locator: //div[@role='textbox'] locatorType: xpath
+2021-09-02 06:55:55,746 - INFO - Element found with locator: //button[contains(text(),'Next')] and locatorType: xpath
+2021-09-02 06:55:55,782 - INFO - clicked on element with locator: //button[contains(text(),'Next')] locatorType: xpath
+2021-09-02 06:55:56,454 - INFO - Element list found with locator: //label[@class='RadioLabel']/span and locatorType: xpath
+2021-09-02 06:56:04,188 - INFO - Element found with locator: //button[contains(text(),'Next')] and locatorType: xpath
+2021-09-02 06:56:04,258 - INFO - clicked on element with locator: //button[contains(text(),'Next')] locatorType: xpath
+2021-09-02 06:56:06,291 - INFO - Element found with locator: //div[@role='textbox'] and locatorType: xpath
+2021-09-02 06:56:06,352 - INFO - send data on element with locator: //div[@role='textbox'] locatorType: xpath
+2021-09-02 06:56:06,357 - INFO - Element found with locator: //button[contains(text(),'Next')] and locatorType: xpath
+2021-09-02 06:56:06,378 - INFO - clicked on element with locator: //button[contains(text(),'Next')] locatorType: xpath
+2021-09-02 06:56:08,413 - INFO - Element found with locator: //div[@role='textbox'] and locatorType: xpath
+2021-09-02 06:56:08,544 - INFO - send data on element with locator: //div[@role='textbox'] locatorType: xpath
+2021-09-02 06:56:08,554 - INFO - Element found with locator: //button[contains(text(),'Next')] and locatorType: xpath
+2021-09-02 06:56:08,577 - INFO - clicked on element with locator: //button[contains(text(),'Next')] locatorType: xpath
+2021-09-02 06:56:10,636 - INFO - Element found with locator: //textarea[@formcontrolname='question_answer'] and locatorType: xpath
+2021-09-02 06:56:10,749 - INFO - send data on element with locator: //textarea[@formcontrolname='question_answer'] locatorType: xpath
+2021-09-02 06:56:10,754 - INFO - Element found with locator: //button[contains(text(),'Next')] and locatorType: xpath
+2021-09-02 06:56:10,774 - INFO - clicked on element with locator: //button[contains(text(),'Next')] locatorType: xpath
+2021-09-02 06:56:12,807 - INFO - Element list found with locator: //label[@class='RadioLabel']/span and locatorType: xpath
+2021-09-02 06:56:15,256 - INFO - Element found with locator: //div[@id='toast-container'] and locatorType: xpath
+2021-09-02 06:56:15,285 - INFO - Getting text on element The text is :: 'You may select up to three topics only.'
+2021-09-02 06:56:15,285 - INFO - You may select Topics limited to max 3 values
+2021-09-02 06:56:15,524 - INFO - Element found with locator: //button[contains(text(),'Submit')] and locatorType: xpath
+2021-09-02 06:56:15,552 - INFO - clicked on element with locator: //button[contains(text(),'Submit')] locatorType: xpath

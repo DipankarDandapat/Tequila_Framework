@@ -1,0 +1,18 @@
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\HelperLibraries\webdriverfactory.py - 	LN:13:webdriverfactory.py:24 browser start
+[32mINFO    [0m WDM:logger.py:14 Current google-chrome version is 92.0.4515
+[32mINFO    [0m WDM:logger.py:14 Get LATEST driver version for 92.0.4515
+[32mINFO    [0m WDM:logger.py:14 Driver [C:\Users\ddand\.wdm\drivers\chromedriver\win32\92.0.4515.107\chromedriver.exe] found in cache
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\TestScripts\Test_AdminSpacePage\test_AdminSpace.py - 	LN:19:test_AdminSpace.py:1120 ###### TEST EXECUTION STARTED :: test_VerifyThatALockedUserCannotAccessThePlatform ######
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\HomeNavigation\home_navigation.py - 	LN:7:selenium_driver.py:160 Element found with locator: //button[contains(text(), 'Accept')] and locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\HomeNavigation\home_navigation.py - 	LN:7:selenium_driver.py:200 clicked on element with locator: //button[contains(text(), 'Accept')] locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\HomeNavigation\home_navigation.py - 	LN:7:selenium_driver.py:160 Element found with locator: //img[contains(@src,'profile.png')] and locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\HomeNavigation\home_navigation.py - 	LN:7:selenium_driver.py:200 clicked on element with locator: //img[contains(@src,'profile.png')] locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\LoginPage\login_page.py - 	LN:7:selenium_driver.py:160 Element found with locator: //input[@formcontrolname='username'] and locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\LoginPage\login_page.py - 	LN:7:selenium_driver.py:230 send data on element with locator: //input[@formcontrolname='username'] locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\LoginPage\login_page.py - 	LN:7:selenium_driver.py:160 Element found with locator: //input[@formcontrolname='password'] and locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\LoginPage\login_page.py - 	LN:7:selenium_driver.py:230 send data on element with locator: //input[@formcontrolname='password'] locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\LoginPage\login_page.py - 	LN:7:selenium_driver.py:160 Element found with locator: //button[contains(text(),'LOGIN')] and locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\LoginPage\login_page.py - 	LN:7:selenium_driver.py:200 clicked on element with locator: //button[contains(text(),'LOGIN')] locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\AdminSpace\admin_space.py - 	LN:9:selenium_driver.py:160 Element found with locator: //div[@id='toast-container'] and locatorType: xpath
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\PageObjects\AdminSpace\admin_space.py - 	LN:9:selenium_driver.py:264 Getting text on element The text is :: 'Your account is locked. Contact your System Administrator.'
+[32mINFO    [0m D:\Python_Projects\Tequila_Framework\TestScripts\Test_AdminSpacePage\test_AdminSpace.py - 	LN:19:test_AdminSpace.py:1128 locked user can't access the platform
