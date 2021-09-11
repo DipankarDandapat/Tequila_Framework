@@ -6,7 +6,7 @@ py.cleanup -p && py.test --platform=android --alluredir ExecutionReports/ & allu
 py.cleanup -p && py.test --platform=ios --alluredir ExecutionReports/ & allure serve ExecutionReports
 
 py.cleanup -p && py.test --alluredir="D:/Python_Projects/Tequila_Framework/ExecutionReports" & allure serve ExecutionReports tests/test_login.py
-py.cleanup -p
+
 
 #### Grid Specific Commands ####
 

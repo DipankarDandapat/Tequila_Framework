@@ -38,6 +38,9 @@ pip install allure-pytest
 pip install allure-python-commons
 ```
 ```bash
+pip install pytest-order
+```
+```bash
 pip install pytest-testrail
 ```
 
@@ -47,46 +50,52 @@ Create new test case
 
 In order to create a new test case using the **Framework**, you have to follow the below steps:
 
-* In **locators module**, create a new locator for the element you would like to use, as below:
+* In **Locators Module**, create a new locator for the element you would like to use, as below:
 
 
         [{
+          "pageName": "HomePage",
+          "name": "input_email",
+          "locateUsing": "xpath",
+          "locator": "//input[@formcontrolname='username']"
+          },
+          {
             "pageName": "HomePage",
-            "name": "link_login",
+            "name": "input_password",
             "locateUsing": "xpath",
-            "locator": "//a[contains(text(),'Log In')]"
-        }]
-
-* In **test data module**, add the test data needed for your test case, as below:
-
-        {
-            "environment": "https://learn.letskodeit.com/",
-            "browser": "firefox",
-            "email": "test@email.com",
-            "password": "abcabc"
-        }
+            "locator": "//input[@formcontrolname='password']"
+          },
+          {
+            "pageName": "HomePage",
+            "name": "btn_login",
+            "locateUsing": "xpath",
+            "locator": "//button[contains(text(),'LOGIN')]"
+          }
+        ]
 
 
-* If the element exist in more than one page (**Navigation element**), use **navigation module** to create a script for that navigation bar and add your navigation action to that element, as below:
 
-        def goToLoginPage(self):
-            self.elementClick(*self.locator(self.homePage_locators, 'link_login'))
+* If the element exists in only one page, go to **PageObject Module** and create a new script for that page e.g: ``login_page.py`` and add all the actions in that page, as below:
 
-* If the element exists in only one page, go to **page module** and create a new script for that page e.g: ``login_page.py`` and add all the actions in that page, as below:
+        class LoginPage(BasePage):
+              def __init__(self, driver):
+                  super().__init__(driver)
+                  self.driver = driver
+                  self.loginPage_locators = self.pageLocators('HomePage')
+          
+              def login(self, email, password):
+                  self.sendKeys(email, *self.locator(self.loginPage_locators, 'input_email'))
+                  self.sendKeys(password, *self.locator(self.loginPage_locators, 'input_password'))
+                  self.elementClick(*self.locator(self.loginPage_locators, 'btn_login'))
 
-        def login(self, email, password):
-            self.sendKeys(email, *self.locator(self.loginPage_locators, 'input_email'))
-            self.sendKeys(password, *self.locator(self.loginPage_locators, 'input_password'))
-            self.elementClick(*self.locator(self.loginPage_locators, 'btn_login'))
-
-* Then, in **test module**, create a new script for your test case(s) e.g: ``test_login.py`` and add your test case, as below:
+* Then, in **TestScripts Module**, create a new script for your test case(s) e.g: ``test_login.py`` and add your test case, as below:
 
         @allure.story('epic_1') # story of the test case
         @allure.severity(allure.severity_level.MINOR) # severity of the test case
         @pytestrail.case('C48') # test case id on test rail
         def test_login_successfully(self):
         
-            with allure.step('Navigate to login page'): # name of the test step
+            with allure.step('Navigate to login page'):
                 self.homeNavigation.goToLoginPage()
                 self.ts.markFinal(self.loginPage.isAt, "navigation to login page failed") # check if the navigation to login page occurs successfully
 
